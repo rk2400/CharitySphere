@@ -23,24 +23,24 @@
                     <li><i class="fas fa-map-marker-alt"></i> Ft No. 25/24, Bowrampet, 500043, Hyderabad,
                         Telangana
                     </li>
-                    <li><i class="fas fa-mobile-alt"></i> +91 7729812798 </li>
+                    <li><i class="fas fa-mobile-alt"></i> +91 7789138312 </li>
                     <li><i class="far fa-envelope"></i> reach@csphere.in </li>
                 </ul>
             </div>
         </div>
         <div class="foot-botom row">
-            <div class="col-md-3">
+            <div class="col-md-7">
                 <div class="fotter-coo">
                     <h5>IMPORTANT LINKS</h5>
                     <ul>
                         <li><a href='index.php#aboutus'><i class="fas fa-caret-right"></i> ABOUT US</a></li>
-                        <li><a href='donate.html'><i class="fas fa-caret-right"></i> DONATE</a></li>
+                        <!-- <li><a href='donate.html'><i class="fas fa-caret-right"></i> DONATE</a></li> -->
                         <li><a href='contact.php'><i class="fas fa-caret-right"></i> CONTACT US</a></li>
                     </ul>
                 </div>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="fotter-coo">
                     <h5>POLICIES</h5>
@@ -52,7 +52,7 @@
                 </div>
 
             </div>
-            <div class="col-md-5">
+            <!-- <div class="col-md-5">
                 <div class="fotter-coo">
                     <h5>PHOTO GALLERY</h5>
                     <div class="gallery-row row">
@@ -77,11 +77,11 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>
-
+<center>
 <div class="copy">
     <div class="container">
         <a href="#">2024 @ All Rights Reserved | Designed and Developed by CS</a>
@@ -94,4 +94,4 @@
         </span> -->
     </div>
 
-</div>
+</div></center>

@@ -1,15 +1,8 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
@@ -52,8 +45,6 @@ body {
   }
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -72,9 +63,6 @@ body {
   margin-top: 1.3rem;
 }
 
-/* Featurettes
-------------------------- */
-
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
@@ -86,8 +74,7 @@ body {
   letter-spacing: -0.05rem;
 }
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+/* RESPONSIVE CSS */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */

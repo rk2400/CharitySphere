@@ -17,10 +17,14 @@ include('header.php');
                 <div class="col-md-12">
                     <div class="fund-heading text-center">
                         <h1>CharitySphere</h1>
-                        <!-- <h2>Charity/Nonprofit</h2> -->
-                        <div class="typed_wrap">
+                        <h2>A Non Profit Organisation System Management Platform</h2>
+                        <h2>We Belive In Change, Join us To Create An Impact</h3>
+                            <!-- <div class="typed_wrap">
+                                <h2> <span class="typed"></span></h2>
+                            </div> -->
+                            <!-- <div class="typed_wrap">
                             <h2> <span class="typed"></span></h2>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -31,10 +35,10 @@ include('header.php');
     <br>
 
 
-    <div class="wel" style="color:skyblue; text-align: center">
+    <div class="wel" style="color:#FFCC00; text-align: center">
         <h5>WELCOME TO CharitySphere</h5>
-        <div style="color: black; text-align: center">
-            <h3>Help us building a<br> new world..</h3>
+        <div style="color: #FFCC00; text-align: center">
+            <h3>We are Building a new World<br> Come Join Us..</h3>
         </div>
     </div>
 
@@ -124,6 +128,9 @@ include('header.php');
                 funds for critical medical cases, we believe that even small acts of kindness can make a big
                 difference. Join us in our mission to spread love, compassion, and hope to those who need it the
                 most.</p>
+            <div class="typed_wrap"> <h2>Our Motive-</h2>
+                <h2> <span class="typed"></span></h2>
+            </div>
         </div>
 
         <hr class="featurette-divider">
@@ -145,19 +152,19 @@ include('header.php');
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <div class="item"> <span class="icon feature_box_col_two"><img class="themeicon" src="images/icons/research.png" width="50" height="50"></span>
-                                <h6>Drives, Research & Survey</h6>
+                                <h6>Donate Useful Items</h6>
                                 <p>Be a part of our team in conducting research, surveys, and drives to make a
                                     positive impact in the society</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
                             <div class="item"> <span class="icon feature_box_col_three"><img class="themeicon" src="images/icons/blood.png" width="50" height="50"></span>
-                                <h6>Blood Donations</h6>
+                                <h6>360-Charity Services</h6>
                                 <p>Be a hero, save a life. Join us in our mission to donate blood and help those in
                                     need. Your one pint of blood can save up to three lives.</p>
                             </div>
                         </div>
- 
+
                         <div class="col-lg-4 col-sm-6">
                             <div class="item"> <span class="icon feature_box_col_four"><img class="themeicon" src="images/icons/gift.png" width="50" height="50"></span>
                                 <h6>Event Celebrations</h6>
@@ -173,13 +180,12 @@ include('header.php');
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                                <div class="item"> <span class="icon feature_box_col_six"><i
-                                            class="fa fa-camera"></i></span>
-                                    <h6>Retina Ready</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                        eget dolor Aenean massa.</p>
-                                </div>
-                            </div> 
+                            <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+                                <h6>ChatBot</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                                    eget dolor Aenean massa.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,7 +193,7 @@ include('header.php');
         </div>
 
         <!-- sponsers & partners -->
-        <hr class="featurette-divider">
+        <!-- <hr class="featurette-divider">
         <div id="themes" class="themescls">
             <div class="feat bg-gray pt-5 pb-5">
                 <div class="container">
@@ -211,7 +217,7 @@ include('header.php');
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
         <hr class="featurette-divider">
 
@@ -232,7 +238,7 @@ include('header.php');
                                         <h4 class="card-title">Donation Summary</h4>
                                         <h5 class="card-subtitle">Overview of Latest Month</h5>
                                     </div>
-              
+
                                     <div class="col-lg-4">
                                         <h1 class="mb-0 mt-4">Rs. <?php echo get_total_price_by_month($con, $date); ?>
                                         </h1>
@@ -242,7 +248,7 @@ include('header.php');
                                         <h3 class="mt-4 mb-0">Rs.
                                             <?php echo get_total_price_by_date($con, $date); ?></h3>
                                         <h6 class="font-light text-muted">This Day</h6>
-                                        
+
                                         <a class="btn btn-info mt-3 p-15 pl-4 pr-4 mb-3" href="donation.html">
                                             Donate</a>
                                     </div>
@@ -360,7 +366,7 @@ include('header.php');
 
         <!--social acc-->
         <div class="social-index">
-            <h1>Join Us On Social Media !!</h1>
+            <h1>Let's Connect</h1>
 
             <div class="social-btns">
                 <a class="sofab btn facebook" href="#"><i class="sofa fab fa-facebook-f"></i></a>

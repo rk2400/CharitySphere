@@ -46,16 +46,12 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white big-nav">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white big-nav" style="background-color: #ffcc00;" >
             <img style="border-radius: 50%; margin-right: 10px;" src="images/logo.svg"
                 height="50px" width="50px">
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" style="color:red !important;
-                        " href="https://ask.stmorg.in">#GetInformed</a>
-                    </li> -->
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -72,38 +68,24 @@
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Food Donation</a>
+                        <a class="nav-link" href="https://donation-delivery.onrender.com">Food Donation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Monetary Donations</a>
+                        <a class="nav-link" href="https://rk2400.github.io/moneydonation/">Monetary Donations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://chatbot-gj9qwob4l-rk2400s-projects.vercel.app/">AIBot</a>
+                        <a class="nav-link" href="https://event-two-ebon.vercel.app/">Events and Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Pet Adoption</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://chatbot-silk-iota.vercel.app/">AIdBot</a>
                     </li>
 
                 </ul>            
 
             </div>
-            <!-- <div class="mobile-nav">
-                <ul class="navbar-nav user-menu">
-                    <li id="userpic-main">
-                        <span><i class="fa-solid fa-circle-user userpic"></i></span>
-                        <ul id="dropped-prof">
-                            <li class="nav-item">
-                                <?php echo $_SESSION['USER_NAME']; ?>
-                            </li>
-                            <li class="nav-item">
-                                <span><i class="fas fa-user"></i></span>
-                                <a class="nav-link" href="profile">Profile</a>
-                            </li>
-                            <li class="nav-item">
-                                <span><i class="fa-solid fa-right-from-bracket"></i></span>
-                                <a class="nav-link" href="logout">LogOut</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div> -->
         </nav>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white mobile-nav">
             <img style="border-radius: 50%; margin-right: 10px;" src="accesories/service_to_man_kind-20200709-0001.jpg"
@@ -137,15 +119,23 @@
                     </li>
                     <li class="nav-item">
                         <span><i class="fa-solid fa-hand-holding-heart"></i></span>
-                        <a class="nav-link" href="logs">Donations</a>
+                        <a class="nav-link" href="https://donation-delivery.onrender.com">Donations</a>
                     </li>
                     <li class="nav-item">
                         <span><i class="fa-solid fa-money-bill"></i></span>
                         <a class="nav-link" href="https://rk2400.github.io/moneydonation/">Monetary Donations</a>
                     </li>
                     <li class="nav-item">
+                        <span><i class="fa-solid fa-money-bill"></i></span>
+                        <a class="nav-link" href="https://rk2400.github.io/moneydonation/">Pet Adoption</a>
+                    </li>
+                    <li class="nav-item">
+                        <span><i class="fa-solid fa-money-bill"></i></span>
+                        <a class="nav-link" href="https://event-two-ebon.vercel.app//">Events and Blogs</a>
+                    </li>
+                    <li class="nav-item">
                         <span><i class="fa-solid fa-robot"></i></span>
-                        <a class="nav-link" href="https://chatbot-gj9qwob4l-rk2400s-projects.vercel.app/">AI Bot</a>
+                        <a class="nav-link" href="https://chatbot-silk-iota.vercel.app/">AI Bot</a>
                     </li>
                 </ul>
             </div>

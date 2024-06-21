@@ -7,7 +7,8 @@
   padding: 120px 0px;
   /* background: url(http://iglyphic.com/themes/html/thefund/assets/images/2.jpg)
     no-repeat center center; */
-  background: url(../../images/pics/banner-2.jpg) no-repeat center center;
+  background: url(../../images/pics/banner.webp) no-repeat center center;
+  /* background: url("https://images.pexels.com/photos/3039036/pexels-photo-3039036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center center; */
   background-size: cover;
   position: relative;
 }
