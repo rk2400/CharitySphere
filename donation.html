@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Donations</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<div class="container">
+    <form id="contact" action="donations.php" method="POST">
+        <center><h3>Thank You For Your Donation!</h3> <br>
+        <h4>Please Fill This Form to Maintain the Payment Records</h4></center>
+        <label for="name">Name:</label>
+        <input placeholder="Your name" type="text" id="name" name="name" required>
+        <label for="email">Email ID:</label>
+        <input placeholder="Your Email Address" type="email" id="email" name="email" required>
+        <label for="mobile">Mobile:</label>
+        <input placeholder="Your Phone Number" type="tel" id="mobile" name="mobile" required>
+        <label for="transaction_id">Transaction ID:</label>
+        <input placeholder="Transaction ID" type="text" id="transaction" name="transaction" required>
+        <label for="amount">Amount:</label>
+        <input placeholder="Amount Donated" type="number" id="amount" name="amount" required>
+        <label for="date">Date (YYYY-MM-DD):</label>
+        <input type="date" id="date" name="date" required> <br> <br>
+        <input class="subtn" type="submit" value="Submit">
+    </form>
+</div>
+</html>
